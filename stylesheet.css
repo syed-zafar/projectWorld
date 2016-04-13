@@ -5,5 +5,68 @@ h2 {
 .header
 {
    background-color: green;
+   height: 72vh;
+}
 
+.context {
+	height: 50vh;
+}
+
+#conTop, #conMid, #conBot {
+	float: left;
+}
+
+#conTop {
+	height: 50vh;
+	width: 100%;
+	background: yellow;
+}
+
+#conMid {
+	height: 200vh;
+	width: 37.5%;
+	background: orange;
+	padding-left: 10%;
+	padding-right: 2.5%;
+}
+
+#conBot {
+	height: 200vh;
+	width: 37.5%;
+	background: purple;
+	padding-right: 10%;
+	padding-left: 2.5%;
+
+}
+
+.footer {
+	clear: both;
+	height: 72vh;
+	padding: 5% 6.5%;
+}
+
+#div_1{
+	width: 18%;
+	background: black;
+	float: left;
+	padding-right: 2%;
+	color: #fff;
+}
+
+#div_2{
+	width: 18%;
+	background: green;
+	float: left;
+	padding-right: 2%;
+}
+
+#div_3{
+	width: 60%;
+	background: yellow;
+	float: left;
+}
+#div_4{
+	width: 100%;
+	background: blue;
+	float: left;
 }
